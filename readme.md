@@ -32,12 +32,12 @@
   1. Было открыто Android Studio и создан новый проект с шаблоном **Empty Views Activity**. Проекту дано имя `ClickProcessingLab`.
   2. Открыт файл `activity_main.xml`. Существующий `TextView` был обёрнут в `LinearLayout` с вертикальной ориентацией (`orientation="vertical"`).
   3. Под стандартным `TextView` добавлена кнопака со следующими параметрами:
-    ```xml
-        android:id="@+id/button1"
-        android:layout_width="175dp"
-        android:layout_height="75dp"
-        android:text="Кнопка"    
-    ```
+```xml
+  android:id="@+id/button1"
+  android:layout_width="175dp"
+  android:layout_height="75dp"
+  android:text="Кнопка"    
+```
   ![Рисунок 1 - Результат задания 1](images/image_1.png)
 
 #### Задание 2: Обработка клика через XML-атрибут onClick (Декларативный подход)
